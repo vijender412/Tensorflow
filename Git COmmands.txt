@@ -1,0 +1,2 @@
+git init - Initialize a local Git repository
+git clone https://github.com/vijender412/Tensorflow.git- Create a local copy of a remote repository

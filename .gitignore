@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+env/
+venv/
+
+# mkdocs documentation
+/site
+
+# model bucket
+models/
+
+# data bucket
+data/
+
