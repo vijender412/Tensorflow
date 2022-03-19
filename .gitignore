@@ -21,3 +21,4 @@ data/
 
 # git repo
 .git/
+.idea/
