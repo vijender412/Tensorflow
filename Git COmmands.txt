@@ -1,2 +1,6 @@
 git init - Initialize a local Git repository
-git clone https://github.com/vijender412/Tensorflow.git- Create a local copy of a remote repository
+git clone https://github.com/vijender412/Tensorflow.git - Create a local copy of a remote repository
+git remote add origin https://github.com/vijender412/Tensorflow.git
+git add -A
+git commit -m "comments"
+git push --force origin main
