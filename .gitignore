@@ -19,3 +19,5 @@ models/
 # data bucket
 data/
 
+# git repo
+.git/
