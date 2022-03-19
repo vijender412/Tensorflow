@@ -3,4 +3,8 @@ git clone https://github.com/vijender412/Tensorflow.git - Create a local copy of
 git remote add origin https://github.com/vijender412/Tensorflow.git
 git add -A
 git commit -m "comments"
-git push --force origin main
+git push origin main ---- use this in case of overwrite forcefully--force
+
+
+
+help -- github.com/joshnh/Git-Commands
