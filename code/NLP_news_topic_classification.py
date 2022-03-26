@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Embedding, GlobalAvgPool1D, Dense
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
-# from history import plot_history, save_history
+from history import plot_history, save_history
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
@@ -77,5 +77,7 @@ if __name__ == '__main__':
 
     model = dnn_model(word_dimension, embedding_dimenstion, sequence_length)
     history = model.fit(train_data,train_labels, validation_split=0.1, batch_size=64, epochs=25, callbacks=[earlystop, checkpoint])
+
+    plot_history(history)
 
     save_model(model, model_name, history, test_data, test_labels)
