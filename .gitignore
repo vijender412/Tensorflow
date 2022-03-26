@@ -22,3 +22,7 @@ data/
 # git repo
 .git/
 .idea/
+
+# other files
+main.py
+PythonTemplateforGitIgnore
